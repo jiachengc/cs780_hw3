@@ -1,7 +1,6 @@
 CC = g++
 CUDA = nvcc
 CFLAGS = -Wall -Wextra -std=c++11 -lpthread -pedantic -O3 -ldl -pthread # for linux
-# CFLAGS = -Wall -Wextra -std=c++11 -lpthread -pedantic -O3 -pthread # for windows MinGW
 CUDAFLAGS = -std=c++11 -arch=sm_75
 
 dot_product.o: dot_product.cu dot_product.h
