@@ -1,4 +1,4 @@
-#/usr/bin/pthon
+#/usr/bin/python
 import os
 import sys
 import numpy as npy
